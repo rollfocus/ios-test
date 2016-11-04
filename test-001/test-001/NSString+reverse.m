@@ -8,14 +8,21 @@
 
 #import "NSString+reverse.h"
 
-@implementation NSString_reverse
+@implementation NSString (reverse)
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (NSString *)reverse
+{
+    NSMutableString *reverseStr = [[NSMutableString alloc] init];
+    if (reverseStr)
+    {
+        for (NSInteger i = self.length - 1; i >= 0; i--) {
+            //exchange charactor
+            unichar ele = [self characterAtIndex:i];
+            [reverseStr appendString:[NSString stringWithCharacters:&ele length:1]];
+        }
+    }
+    
+    return reverseStr;
 }
-*/
 
 @end

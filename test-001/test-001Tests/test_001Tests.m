@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSString+reverse.h"
 
 @interface test_001Tests : XCTestCase
 
@@ -34,6 +35,16 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+
+- (void)testNSStringReverse {
+    NSString *str = @"123456A哈";
+    NSString *reverseStr = [str reverse];
+    NSLog(@">>> %@", reverseStr);
+    
+    XCTAssertEqualObjects(reverseStr, @"哈A654321", @"must equal");
+    XCTAssertNotEqual(reverseStr, @"哈A654321", @"must equal");
+
 }
 
 @end

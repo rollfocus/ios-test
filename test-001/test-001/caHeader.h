@@ -6,11 +6,10 @@
 //  Copyright © 2016 cDuozi. All rights reserved.
 //
 
-#ifndef caHeader_h
-#define caHeader_h
-
 
 #define CLS(x) NSStringFromClass([x class])
 
+#define SCALE  [UIScreen mainScreen].scale
 
-#endif /* caHeader_h */
+#define screenHeight  [UIScreen mainScreen].bounds.size.height
+#define screenWidth   [UIScreen mainScreen].bounds.size.width

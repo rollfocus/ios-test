@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSString_reverse : UIView
+@interface NSString (reverse)
+
+- (NSString *)reverse;
 
 @end
