@@ -1,0 +1,10 @@
+#platform :ios, ‘8.0’
+
+target "test-001" do
+#xcodeproj './test-001.xcodeproj'
+
+
+#AFNetworking 网络库
+#pod "AFNetworking", "~> 2.5.4"
+
+end
