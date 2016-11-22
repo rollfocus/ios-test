@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "NSString+reverse.h"
+#import "UIView+ca.h"
 
 @interface test_001Tests : XCTestCase
 
@@ -37,6 +38,11 @@
     }];
 }
 
+- (void)testOverRide {
+    UIView *test = [[UIView alloc] init];
+    [test init:12 name:@"test"];
+}
+
 - (void)testNSStringReverse {
     NSString *str = @"123456A哈";
     NSString *reverseStr = [str reverse];
@@ -44,7 +50,6 @@
     
     XCTAssertEqualObjects(reverseStr, @"哈A654321", @"must equal");
     XCTAssertNotEqual(reverseStr, @"哈A654321", @"must equal");
-
 }
 
 @end

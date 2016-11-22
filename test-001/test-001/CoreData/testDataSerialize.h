@@ -6,8 +6,10 @@
 //  Copyright © 2016 cDuozi. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface testDataSerialize : NSObject
+
+@interface testDataSerialize : UIView
 
 @end
