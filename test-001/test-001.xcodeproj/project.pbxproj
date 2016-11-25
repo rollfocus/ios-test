@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		645B1E58E4AA196E6D8CA1A4 /* libPods-test-001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60EB163ACBCE4D78D461565 /* libPods-test-001.a */; };
+		C97FCBD51DE8115D00B5A71E /* HMCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */; };
 		C9BE15581DE4438200256908 /* testGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15571DE4438200256908 /* testGCD.m */; };
 		C9BE15611DE4442200256908 /* NSString+reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE155E1DE4442200256908 /* NSString+reverse.m */; };
 		C9BE15621DE4442200256908 /* UIView+ca.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15601DE4442200256908 /* UIView+ca.m */; };
@@ -16,11 +17,14 @@
 		C9BE15711DE4459800256908 /* testRunLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15701DE4459800256908 /* testRunLoopView.m */; };
 		C9BE15741DE446FF00256908 /* testGCDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15731DE446FF00256908 /* testGCDView.m */; };
 		C9BE15771DE4497D00256908 /* testDataSerialize.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15761DE4497D00256908 /* testDataSerialize.m */; };
+		C9BE157A1DE4531B00256908 /* cdPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15791DE4531B00256908 /* cdPeople.m */; };
+		C9BE157C1DE456B400256908 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BE157B1DE456B400256908 /* CoreData.framework */; };
+		C9BE157E1DE456D700256908 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BE157D1DE456D700256908 /* libsqlite3.tbd */; };
+		C9BE16441DE584F800256908 /* test_001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9BE16421DE584F800256908 /* test_001.xcdatamodeld */; };
 		C9F127B31DC9970C005F55BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127B21DC9970C005F55BD /* main.m */; };
 		C9F127B61DC9970C005F55BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127B51DC9970C005F55BD /* AppDelegate.m */; };
 		C9F127B91DC9970C005F55BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127B81DC9970C005F55BD /* ViewController.m */; };
 		C9F127BC1DC9970C005F55BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F127BA1DC9970C005F55BD /* Main.storyboard */; };
-		C9F127BF1DC9970C005F55BD /* test_001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9F127BD1DC9970C005F55BD /* test_001.xcdatamodeld */; };
 		C9F127C11DC9970C005F55BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F127C01DC9970C005F55BD /* Assets.xcassets */; };
 		C9F127C41DC9970C005F55BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F127C21DC9970C005F55BD /* LaunchScreen.storyboard */; };
 		C9F127CF1DC9970C005F55BD /* test_001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127CE1DC9970C005F55BD /* test_001Tests.m */; };
@@ -47,6 +51,8 @@
 /* Begin PBXFileReference section */
 		6DAEE49461D30DEB2E020408 /* Pods-test-001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-001.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-001/Pods-test-001.debug.xcconfig"; sourceTree = "<group>"; };
 		A60EB163ACBCE4D78D461565 /* libPods-test-001.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test-001.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97FCBD31DE8115C00B5A71E /* HMCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCoreDataManager.h; sourceTree = "<group>"; };
+		C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCoreDataManager.m; sourceTree = "<group>"; };
 		C9BE15561DE4438200256908 /* testGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testGCD.h; sourceTree = "<group>"; };
 		C9BE15571DE4438200256908 /* testGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testGCD.m; sourceTree = "<group>"; };
 		C9BE155D1DE4442200256908 /* NSString+reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+reverse.h"; sourceTree = "<group>"; };
@@ -64,6 +70,11 @@
 		C9BE15731DE446FF00256908 /* testGCDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testGCDView.m; sourceTree = "<group>"; };
 		C9BE15751DE4497D00256908 /* testDataSerialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testDataSerialize.h; sourceTree = "<group>"; };
 		C9BE15761DE4497D00256908 /* testDataSerialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDataSerialize.m; sourceTree = "<group>"; };
+		C9BE15781DE4531B00256908 /* cdPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdPeople.h; sourceTree = "<group>"; };
+		C9BE15791DE4531B00256908 /* cdPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cdPeople.m; sourceTree = "<group>"; };
+		C9BE157B1DE456B400256908 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9BE157D1DE456D700256908 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C9BE16431DE584F800256908 /* test_001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_001.xcdatamodel; sourceTree = "<group>"; };
 		C9F127AE1DC9970C005F55BD /* test-001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F127B21DC9970C005F55BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F127B41DC9970C005F55BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,7 +82,6 @@
 		C9F127B71DC9970C005F55BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C9F127B81DC9970C005F55BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C9F127BB1DC9970C005F55BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9F127BE1DC9970C005F55BD /* test_001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_001.xcdatamodel; sourceTree = "<group>"; };
 		C9F127C01DC9970C005F55BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F127C31DC9970C005F55BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F127C51DC9970C005F55BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BE157E1DE456D700256908 /* libsqlite3.tbd in Frameworks */,
+				C9BE157C1DE456B400256908 /* CoreData.framework in Frameworks */,
 				645B1E58E4AA196E6D8CA1A4 /* libPods-test-001.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +134,8 @@
 		BB9843FFFC476C3841F1AF62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9BE157D1DE456D700256908 /* libsqlite3.tbd */,
+				C9BE157B1DE456B400256908 /* CoreData.framework */,
 				A60EB163ACBCE4D78D461565 /* libPods-test-001.a */,
 			);
 			name = Frameworks;
@@ -148,9 +162,12 @@
 		C9BE155A1DE4439A00256908 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				C9F127BD1DC9970C005F55BD /* test_001.xcdatamodeld */,
+				C9BE15781DE4531B00256908 /* cdPeople.h */,
+				C9BE15791DE4531B00256908 /* cdPeople.m */,
 				C9BE15751DE4497D00256908 /* testDataSerialize.h */,
 				C9BE15761DE4497D00256908 /* testDataSerialize.m */,
+				C97FCBD31DE8115C00B5A71E /* HMCoreDataManager.h */,
+				C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -231,6 +248,7 @@
 				C9F127B71DC9970C005F55BD /* ViewController.h */,
 				C9F127B81DC9970C005F55BD /* ViewController.m */,
 				C9F127BA1DC9970C005F55BD /* Main.storyboard */,
+				C9BE16421DE584F800256908 /* test_001.xcdatamodeld */,
 				C9F127C01DC9970C005F55BD /* Assets.xcassets */,
 				C9F127C21DC9970C005F55BD /* LaunchScreen.storyboard */,
 				C9F127C51DC9970C005F55BD /* Info.plist */,
@@ -453,12 +471,14 @@
 				C9BE15771DE4497D00256908 /* testDataSerialize.m in Sources */,
 				C9BE156E1DE4456100256908 /* testRunLoop.m in Sources */,
 				C9BE15611DE4442200256908 /* NSString+reverse.m in Sources */,
+				C97FCBD51DE8115D00B5A71E /* HMCoreDataManager.m in Sources */,
 				C9F127B91DC9970C005F55BD /* ViewController.m in Sources */,
 				C9BE15671DE4443D00256908 /* layerTestView.m in Sources */,
 				C9BE15711DE4459800256908 /* testRunLoopView.m in Sources */,
+				C9BE16441DE584F800256908 /* test_001.xcdatamodeld in Sources */,
 				C9BE15581DE4438200256908 /* testGCD.m in Sources */,
-				C9F127BF1DC9970C005F55BD /* test_001.xcdatamodeld in Sources */,
 				C9BE15621DE4442200256908 /* UIView+ca.m in Sources */,
+				C9BE157A1DE4531B00256908 /* cdPeople.m in Sources */,
 				C9BE15741DE446FF00256908 /* testGCDView.m in Sources */,
 				C9F127B61DC9970C005F55BD /* AppDelegate.m in Sources */,
 				C9F127B31DC9970C005F55BD /* main.m in Sources */,
@@ -722,14 +742,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C9F127BD1DC9970C005F55BD /* test_001.xcdatamodeld */ = {
+		C9BE16421DE584F800256908 /* test_001.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C9F127BE1DC9970C005F55BD /* test_001.xcdatamodel */,
+				C9BE16431DE584F800256908 /* test_001.xcdatamodel */,
 			);
-			currentVersion = C9F127BE1DC9970C005F55BD /* test_001.xcdatamodel */;
-			name = test_001.xcdatamodeld;
-			path = ../CoreData/test_001.xcdatamodeld;
+			currentVersion = C9BE16431DE584F800256908 /* test_001.xcdatamodel */;
+			path = test_001.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
