@@ -57,7 +57,7 @@
     NSLog(@"%d", (int)(&key));
     
     // set value for key
-    [[testBasic new] testSetValue];
+    [[testBasic new] test];
 }
 
 - (void)testRuntime {

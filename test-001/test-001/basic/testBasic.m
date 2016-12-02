@@ -11,6 +11,11 @@
 static NSString *pKey = @"ulProp";
 static NSString *pKeyUL = @"_ulProp";
 
+struct key {
+    int a;
+    BOOL b;
+};
+
 
 @implementation testBasic
 
@@ -55,6 +60,33 @@ static NSString *pKeyUL = @"_ulProp";
         _age = age;
     }
     return self;
+}
+
+- (void)test {
+
+    [self testTypeEncode];
+
+    [self testSetValue];
+    [self testKVO];
+}
+
+- (void)testTypeEncode {
+    
+    // 参考：https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html
+    // type encode, 对应的运用时runtime参数类型表示
+    // 可用于 NSMethodSignature 的 signatureWithObjCTypes 方法参数
+    char *buf = @encode(int);
+    char *buf1 = @encode(int **);
+    char *buf2 = @encode(NSString);
+    char *buf3 = @encode(void);
+    char *buf4 = @encode(SEL);
+    char *buf5 = @encode(NSObject);
+    NSLog(@">>> type encode: %s", buf);
+    NSLog(@">>> type encode: %s", buf1);
+    NSLog(@">>> type encode: %s", buf2);
+    NSLog(@">>> type encode: %s", buf3);
+    NSLog(@">>> type encode: %s", buf4);
+    NSLog(@">>> type encode: %s", buf5);
 }
 
 - (void)testSetValue {

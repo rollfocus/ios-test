@@ -20,6 +20,8 @@
 @property (nonatomic, assign) NSInteger age;
 
 
+- (void)test;
+
 - (void)testSetValue;
 - (void)testKVO;
 

@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface testRuntime : NSObject
+@interface testRuntime : NSObject {
+    NSInteger varT;
+}
 
 @property (nonatomic, assign) NSInteger propInt;
 @property (nonatomic, copy) NSString *propStr;
