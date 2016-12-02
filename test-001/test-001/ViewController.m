@@ -37,6 +37,11 @@
     self.mainTableView.delegate = self;
     
     [self fetchNameFromDB];
+    
+    NSMutableArray<NSString *> *arr = [NSMutableArray new];
+    [arr addObject:@1];
+    
+    object_getClassName(self);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -80,7 +85,7 @@
     
     //save
     [managedContext save:nil];
-    
+        
     [_peopleArr addObject:person];
 
     [self.mainTableView reloadData];

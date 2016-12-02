@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		645B1E58E4AA196E6D8CA1A4 /* libPods-test-001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60EB163ACBCE4D78D461565 /* libPods-test-001.a */; };
 		C97FCBD51DE8115D00B5A71E /* HMCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */; };
+		C97FCBD91DED2EB100B5A71E /* testProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBD81DED2EB100B5A71E /* testProtocol.m */; };
+		C97FCBDD1DED357900B5A71E /* testRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBDC1DED357900B5A71E /* testRuntime.m */; };
+		C97FCBE01DED35EA00B5A71E /* testCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBDF1DED35EA00B5A71E /* testCategory.m */; };
+		C97FCBE31DEE6C5800B5A71E /* testClassMechanics.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBE21DEE6C5800B5A71E /* testClassMechanics.m */; };
+		C97FCBE71DEFBF6100B5A71E /* testBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBE61DEFBF6100B5A71E /* testBasic.m */; };
+		C97FCBEC1DEFF11F00B5A71E /* testTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBEA1DEFF11F00B5A71E /* testTableViewCell.m */; };
+		C97FCBED1DEFF11F00B5A71E /* testTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97FCBEB1DEFF11F00B5A71E /* testTableViewCell.xib */; };
+		C97FCBF01DEFF32800B5A71E /* testUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBEF1DEFF32800B5A71E /* testUIView.m */; };
+		C97FCC201DF0201C00B5A71E /* myFirstFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97FCC1F1DF0201C00B5A71E /* myFirstFrameWork.framework */; };
 		C9BE15581DE4438200256908 /* testGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15571DE4438200256908 /* testGCD.m */; };
 		C9BE15611DE4442200256908 /* NSString+reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE155E1DE4442200256908 /* NSString+reverse.m */; };
 		C9BE15621DE4442200256908 /* UIView+ca.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BE15601DE4442200256908 /* UIView+ca.m */; };
@@ -53,6 +62,22 @@
 		A60EB163ACBCE4D78D461565 /* libPods-test-001.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test-001.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97FCBD31DE8115C00B5A71E /* HMCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCoreDataManager.h; sourceTree = "<group>"; };
 		C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCoreDataManager.m; sourceTree = "<group>"; };
+		C97FCBD71DED2EB100B5A71E /* testProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testProtocol.h; sourceTree = "<group>"; };
+		C97FCBD81DED2EB100B5A71E /* testProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testProtocol.m; sourceTree = "<group>"; };
+		C97FCBDB1DED357900B5A71E /* testRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testRuntime.h; sourceTree = "<group>"; };
+		C97FCBDC1DED357900B5A71E /* testRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testRuntime.m; sourceTree = "<group>"; };
+		C97FCBDE1DED35EA00B5A71E /* testCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testCategory.h; path = "test-001/testCategory.h"; sourceTree = SOURCE_ROOT; };
+		C97FCBDF1DED35EA00B5A71E /* testCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testCategory.m; path = "test-001/testCategory.m"; sourceTree = SOURCE_ROOT; };
+		C97FCBE11DEE6C5800B5A71E /* testClassMechanics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testClassMechanics.h; sourceTree = "<group>"; };
+		C97FCBE21DEE6C5800B5A71E /* testClassMechanics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testClassMechanics.m; sourceTree = "<group>"; };
+		C97FCBE51DEFBF6100B5A71E /* testBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testBasic.h; sourceTree = "<group>"; };
+		C97FCBE61DEFBF6100B5A71E /* testBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testBasic.m; sourceTree = "<group>"; };
+		C97FCBE91DEFF11F00B5A71E /* testTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTableViewCell.h; sourceTree = "<group>"; };
+		C97FCBEA1DEFF11F00B5A71E /* testTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTableViewCell.m; sourceTree = "<group>"; };
+		C97FCBEB1DEFF11F00B5A71E /* testTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testTableViewCell.xib; sourceTree = "<group>"; };
+		C97FCBEE1DEFF32800B5A71E /* testUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testUIView.h; sourceTree = "<group>"; };
+		C97FCBEF1DEFF32800B5A71E /* testUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testUIView.m; sourceTree = "<group>"; };
+		C97FCC1F1DF0201C00B5A71E /* myFirstFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myFirstFrameWork.framework; sourceTree = "<group>"; };
 		C9BE15561DE4438200256908 /* testGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testGCD.h; sourceTree = "<group>"; };
 		C9BE15571DE4438200256908 /* testGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testGCD.m; sourceTree = "<group>"; };
 		C9BE155D1DE4442200256908 /* NSString+reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+reverse.h"; sourceTree = "<group>"; };
@@ -99,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97FCC201DF0201C00B5A71E /* myFirstFrameWork.framework in Frameworks */,
 				C9BE157E1DE456D700256908 /* libsqlite3.tbd in Frameworks */,
 				C9BE157C1DE456B400256908 /* CoreData.framework in Frameworks */,
 				645B1E58E4AA196E6D8CA1A4 /* libPods-test-001.a in Frameworks */,
@@ -134,11 +160,53 @@
 		BB9843FFFC476C3841F1AF62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C97FCC1F1DF0201C00B5A71E /* myFirstFrameWork.framework */,
 				C9BE157D1DE456D700256908 /* libsqlite3.tbd */,
 				C9BE157B1DE456B400256908 /* CoreData.framework */,
 				A60EB163ACBCE4D78D461565 /* libPods-test-001.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97FCBD61DED2E8500B5A71E /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCBD71DED2EB100B5A71E /* testProtocol.h */,
+				C97FCBD81DED2EB100B5A71E /* testProtocol.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		C97FCBDA1DED356100B5A71E /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCBDB1DED357900B5A71E /* testRuntime.h */,
+				C97FCBDC1DED357900B5A71E /* testRuntime.m */,
+				C97FCBE11DEE6C5800B5A71E /* testClassMechanics.h */,
+				C97FCBE21DEE6C5800B5A71E /* testClassMechanics.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		C97FCBE41DEFBF4E00B5A71E /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCBE51DEFBF6100B5A71E /* testBasic.h */,
+				C97FCBE61DEFBF6100B5A71E /* testBasic.m */,
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
+		C97FCBE81DEFF0EE00B5A71E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCBE91DEFF11F00B5A71E /* testTableViewCell.h */,
+				C97FCBEA1DEFF11F00B5A71E /* testTableViewCell.m */,
+				C97FCBEB1DEFF11F00B5A71E /* testTableViewCell.xib */,
+				C97FCBEE1DEFF32800B5A71E /* testUIView.h */,
+				C97FCBEF1DEFF32800B5A71E /* testUIView.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		C9BE15551DE4438200256908 /* GCD */ = {
@@ -184,6 +252,8 @@
 		C9BE155C1DE4442200256908 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				C97FCBDE1DED35EA00B5A71E /* testCategory.h */,
+				C97FCBDF1DED35EA00B5A71E /* testCategory.m */,
 				C9BE155F1DE4442200256908 /* UIView+ca.h */,
 				C9BE15601DE4442200256908 /* UIView+ca.m */,
 				C9BE155D1DE4442200256908 /* NSString+reverse.h */,
@@ -236,7 +306,11 @@
 		C9F127B01DC9970C005F55BD /* test-001 */ = {
 			isa = PBXGroup;
 			children = (
+				C97FCBE81DEFF0EE00B5A71E /* UI */,
 				C9BE15631DE4442600256908 /* public */,
+				C97FCBE41DEFBF4E00B5A71E /* basic */,
+				C97FCBDA1DED356100B5A71E /* runtime */,
+				C97FCBD61DED2E8500B5A71E /* protocol */,
 				C9BE155C1DE4442200256908 /* category */,
 				C9BE155B1DE443C900256908 /* CoreGraphics */,
 				C9BE155A1DE4439A00256908 /* CoreData */,
@@ -394,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F127C41DC9970C005F55BD /* LaunchScreen.storyboard in Resources */,
+				C97FCBED1DEFF11F00B5A71E /* testTableViewCell.xib in Resources */,
 				C9F127C11DC9970C005F55BD /* Assets.xcassets in Resources */,
 				C9F127BC1DC9970C005F55BD /* Main.storyboard in Resources */,
 			);
@@ -470,18 +545,25 @@
 			files = (
 				C9BE15771DE4497D00256908 /* testDataSerialize.m in Sources */,
 				C9BE156E1DE4456100256908 /* testRunLoop.m in Sources */,
+				C97FCBF01DEFF32800B5A71E /* testUIView.m in Sources */,
 				C9BE15611DE4442200256908 /* NSString+reverse.m in Sources */,
+				C97FCBD91DED2EB100B5A71E /* testProtocol.m in Sources */,
 				C97FCBD51DE8115D00B5A71E /* HMCoreDataManager.m in Sources */,
 				C9F127B91DC9970C005F55BD /* ViewController.m in Sources */,
 				C9BE15671DE4443D00256908 /* layerTestView.m in Sources */,
+				C97FCBE71DEFBF6100B5A71E /* testBasic.m in Sources */,
 				C9BE15711DE4459800256908 /* testRunLoopView.m in Sources */,
 				C9BE16441DE584F800256908 /* test_001.xcdatamodeld in Sources */,
 				C9BE15581DE4438200256908 /* testGCD.m in Sources */,
 				C9BE15621DE4442200256908 /* UIView+ca.m in Sources */,
 				C9BE157A1DE4531B00256908 /* cdPeople.m in Sources */,
+				C97FCBDD1DED357900B5A71E /* testRuntime.m in Sources */,
 				C9BE15741DE446FF00256908 /* testGCDView.m in Sources */,
 				C9F127B61DC9970C005F55BD /* AppDelegate.m in Sources */,
 				C9F127B31DC9970C005F55BD /* main.m in Sources */,
+				C97FCBEC1DEFF11F00B5A71E /* testTableViewCell.m in Sources */,
+				C97FCBE31DEE6C5800B5A71E /* testClassMechanics.m in Sources */,
+				C97FCBE01DED35EA00B5A71E /* testCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,8 +710,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DAEE49461D30DEB2E020408 /* Pods-test-001.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"$(PROJECT_DIR)/myFirstFrameWork.framework/Headers",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = "test-001/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -643,8 +736,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA6F26ED922FA25F575399F0 /* Pods-test-001.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"$(PROJECT_DIR)/myFirstFrameWork.framework/Headers",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = "test-001/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -658,6 +762,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/myFirstFrameWork.framework/Headers";
 				INFOPLIST_FILE = "test-001Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..test-001Tests";
@@ -670,6 +776,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/myFirstFrameWork.framework/Headers";
 				INFOPLIST_FILE = "test-001Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..test-001Tests";

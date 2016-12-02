@@ -11,8 +11,10 @@
 @implementation UIView (ca)
 
 - (void)init:(NSInteger)index name:(NSString *)name {
-    NSLog(@">>>>> test override: %ld,%@", index, name);
+    
+    NSLog(@">>>>> test override: %ld,%@", index, name);    
 }
+
 
 
 @end

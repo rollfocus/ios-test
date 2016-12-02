@@ -14,6 +14,10 @@ NSString *dbName = @"test_001";
 
 @interface HMCoreDataManager ()
 
+-(void)testExtension;//不视线会有编译警告
+
+// extension可以添加属性，category不可以
+
 //iOS9中 CoreData Stack核心的三个类
 //管理模型文件上下文
 @property (nonatomic,strong) NSManagedObjectContext *managedObjectContext1;
