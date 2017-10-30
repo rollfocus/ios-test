@@ -12,6 +12,7 @@
 #import "NSString+reverse.h"
 #import "UIView+ca.h"
 #import "testRuntime.h"
+#import "testDataSerialize.h"
 #import "testClassMechanics.h"
 #import "testBasic.h"
 #import "testUIView.h"
@@ -61,10 +62,12 @@
 }
 
 - (void)testRuntime {
+    
     [[testRuntime new] test];
 }
 
 - (void)testKVO {
+    
     [[testBasic new] testKVO];
 }
 
@@ -122,8 +125,7 @@
 - (void)testCategory {
     //category添加属性
     testCategory *tc = [testCategory new];
-    tc.catStr = @"hahah";
-    NSLog(@"category property: %@", tc.catStr);
+    [tc test];
 }
 
 - (void)testOverRide {
@@ -138,6 +140,10 @@
     
     XCTAssertEqualObjects(reverseStr, @"哈A654321", @"must equal");
     XCTAssertNotEqual(reverseStr, @"哈A654321", @"must equal");
+}
+
+- (void)testSerial {
+    [[testDataSerialize new] test];
 }
 
 @end

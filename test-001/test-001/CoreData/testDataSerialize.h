@@ -12,4 +12,9 @@
 
 @interface testDataSerialize : UIView
 
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, assign) BOOL ok;
+
+- (void)test;
+
 @end

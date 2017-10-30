@@ -17,6 +17,13 @@ struct key {
 };
 
 
+@interface testBasic () {
+ 
+    int structMem;
+}
+
+@end
+
 @implementation testBasic
 
 - (instancetype)init {
@@ -52,6 +59,8 @@ struct key {
     [self removeObserver:self forKeyPath:pKeyUL];
     [self removeObserver:self forKeyPath:@"arrT"];
     [self removeObserver:self forKeyPath:@"strT"];
+    
+    NSLog(@">>>>>>  testbasic dealloc ....");
 }
 
 - (instancetype)initWithName:(NSString *)name age:(NSInteger)age {
@@ -63,11 +72,63 @@ struct key {
 }
 
 - (void)test {
+    
+    // test struct member
+    self->structMem = 10;
+
+    [self testInvokeFunction];
 
     [self testTypeEncode];
 
     [self testSetValue];
     [self testKVO];
+    
+    [self testDataStruct];
+}
+
+- (void)testInvokeMethod {
+    NSLog(@">> hi, i am testInvokeMethod");
+}
+
+- (void)bgMethod {
+    
+    // 因为是在背景线程中执行 需要内部建立自己的 Autorelease Pool
+    @autoreleasepool {
+        NSLog(@">> hi, i am bgMethod");
+
+        //执行完毕通知主线程调用
+        [self performSelectorOnMainThread:@selector(testInvokeMethod)
+                               withObject:nil waitUntilDone:NO];
+    }
+}
+
+- (void)testInvokeFunction {
+    // check resonse
+    NSLog(@"%d, %d",
+          [self respondsToSelector:@selector(testKVO)],
+          [self respondsToSelector:@selector(testHi)]);
+    
+    // test selector string
+    NSLog(@">> selector actually is: %s",
+          (char *)(@selector(observeValueForKeyPath:ofObject:change:context:)));
+    // test call function
+    [self testInvokeMethod];
+    [self performSelector:@selector(testInvokeMethod)];
+    [self performSelector:@selector(testInvokeMethod) withObject:nil];
+    [self performSelector:@selector(testInvokeMethod) withObject:nil afterDelay:2];
+    //背景执行，实际是另创建一条线程执行；注意，背景执行时要在method内部建立自己的 autorelease pool
+    [self performSelectorInBackground:@selector(bgMethod) withObject:nil];
+    //    [self performSelector:@selector(testNotExist)];// selector is not exist, will crash
+    [NSObject cancelPreviousPerformRequestsWithTarget:self
+                                             selector:@selector(testInvokeMethod)
+                                               object:nil];
+    
+    //会一直执行
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self
+                                                    selector:@selector(testInvokeMethod)
+                                                    userInfo:nil repeats:NO];
+    
+    [NSString defaultCStringEncoding];//? ?
 }
 
 - (void)testTypeEncode {
@@ -87,6 +148,10 @@ struct key {
     NSLog(@">>> type encode: %s", buf3);
     NSLog(@">>> type encode: %s", buf4);
     NSLog(@">>> type encode: %s", buf5);
+    
+    [NSString string];
+    [NSMutableArray array];
+    NSStringFromClass([[NSMutableString string] class]);
 }
 
 - (void)testSetValue {
@@ -131,6 +196,16 @@ struct key {
     // 测试NSMutableString的KVO
     [self.strT appendString:@"aaa"]; //内容变化不会触发
     self.strT = nil; // 指针变化会触发
+}
+
+- (void)testDataStruct {
+    
+    NSArray *newArr = @[@1,@4,@2,@5];
+    // localizedCompare只适应于NSString
+    // compare 是默认的比较方法
+    NSArray *sortedArr = [newArr sortedArrayUsingSelector:@selector(compare:)];
+    NSLog(@"sorted arr: %@", sortedArr);
+    
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		645B1E58E4AA196E6D8CA1A4 /* libPods-test-001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60EB163ACBCE4D78D461565 /* libPods-test-001.a */; };
+		C9154B9B1E0A5306007CFD04 /* testOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9154B9A1E0A5306007CFD04 /* testOperation.m */; };
+		C947C56F1E80CDB9001E0B5C /* UIBezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = C947C56E1E80CDB9001E0B5C /* UIBezierView.m */; };
 		C97FCBD51DE8115D00B5A71E /* HMCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */; };
 		C97FCBD91DED2EB100B5A71E /* testProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBD81DED2EB100B5A71E /* testProtocol.m */; };
 		C97FCBDD1DED357900B5A71E /* testRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCBDC1DED357900B5A71E /* testRuntime.m */; };
@@ -30,6 +32,10 @@
 		C9BE157C1DE456B400256908 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BE157B1DE456B400256908 /* CoreData.framework */; };
 		C9BE157E1DE456D700256908 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BE157D1DE456D700256908 /* libsqlite3.tbd */; };
 		C9BE16441DE584F800256908 /* test_001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9BE16421DE584F800256908 /* test_001.xcdatamodeld */; };
+		C9D6EA3F1E6D2F5000019D46 /* testTouchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6EA3E1E6D2F5000019D46 /* testTouchEvent.m */; };
+		C9D6EA431E6E9E8500019D46 /* transferVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6EA421E6E9E8500019D46 /* transferVIew.m */; };
+		C9D6EA461E7002FB00019D46 /* animationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D6EA451E7002FB00019D46 /* animationView.m */; };
+		C9D6EA481E70048500019D46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D6EA471E70048500019D46 /* QuartzCore.framework */; };
 		C9F127B31DC9970C005F55BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127B21DC9970C005F55BD /* main.m */; };
 		C9F127B61DC9970C005F55BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127B51DC9970C005F55BD /* AppDelegate.m */; };
 		C9F127B91DC9970C005F55BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F127B81DC9970C005F55BD /* ViewController.m */; };
@@ -60,6 +66,10 @@
 /* Begin PBXFileReference section */
 		6DAEE49461D30DEB2E020408 /* Pods-test-001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-001.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-001/Pods-test-001.debug.xcconfig"; sourceTree = "<group>"; };
 		A60EB163ACBCE4D78D461565 /* libPods-test-001.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test-001.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9154B991E0A5306007CFD04 /* testOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testOperation.h; sourceTree = "<group>"; };
+		C9154B9A1E0A5306007CFD04 /* testOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testOperation.m; sourceTree = "<group>"; };
+		C947C56D1E80CDB9001E0B5C /* UIBezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierView.h; sourceTree = "<group>"; };
+		C947C56E1E80CDB9001E0B5C /* UIBezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBezierView.m; sourceTree = "<group>"; };
 		C97FCBD31DE8115C00B5A71E /* HMCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCoreDataManager.h; sourceTree = "<group>"; };
 		C97FCBD41DE8115C00B5A71E /* HMCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCoreDataManager.m; sourceTree = "<group>"; };
 		C97FCBD71DED2EB100B5A71E /* testProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testProtocol.h; sourceTree = "<group>"; };
@@ -100,6 +110,13 @@
 		C9BE157B1DE456B400256908 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C9BE157D1DE456D700256908 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C9BE16431DE584F800256908 /* test_001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test_001.xcdatamodel; sourceTree = "<group>"; };
+		C9D6EA3D1E6D2F5000019D46 /* testTouchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTouchEvent.h; sourceTree = "<group>"; };
+		C9D6EA3E1E6D2F5000019D46 /* testTouchEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTouchEvent.m; sourceTree = "<group>"; };
+		C9D6EA411E6E9E8500019D46 /* transferVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transferVIew.h; sourceTree = "<group>"; };
+		C9D6EA421E6E9E8500019D46 /* transferVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transferVIew.m; sourceTree = "<group>"; };
+		C9D6EA441E7002FB00019D46 /* animationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animationView.h; sourceTree = "<group>"; };
+		C9D6EA451E7002FB00019D46 /* animationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animationView.m; sourceTree = "<group>"; };
+		C9D6EA471E70048500019D46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C9F127AE1DC9970C005F55BD /* test-001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F127B21DC9970C005F55BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F127B41DC9970C005F55BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D6EA481E70048500019D46 /* QuartzCore.framework in Frameworks */,
 				C97FCC201DF0201C00B5A71E /* myFirstFrameWork.framework in Frameworks */,
 				C9BE157E1DE456D700256908 /* libsqlite3.tbd in Frameworks */,
 				C9BE157C1DE456B400256908 /* CoreData.framework in Frameworks */,
@@ -160,6 +178,7 @@
 		BB9843FFFC476C3841F1AF62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9D6EA471E70048500019D46 /* QuartzCore.framework */,
 				C97FCC1F1DF0201C00B5A71E /* myFirstFrameWork.framework */,
 				C9BE157D1DE456D700256908 /* libsqlite3.tbd */,
 				C9BE157B1DE456B400256908 /* CoreData.framework */,
@@ -193,6 +212,8 @@
 			children = (
 				C97FCBE51DEFBF6100B5A71E /* testBasic.h */,
 				C97FCBE61DEFBF6100B5A71E /* testBasic.m */,
+				C9D6EA3D1E6D2F5000019D46 /* testTouchEvent.h */,
+				C9D6EA3E1E6D2F5000019D46 /* testTouchEvent.m */,
 			);
 			path = basic;
 			sourceTree = "<group>";
@@ -281,6 +302,19 @@
 			path = RunLoop;
 			sourceTree = "<group>";
 		};
+		C9D6EA401E6E9E5700019D46 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6EA411E6E9E8500019D46 /* transferVIew.h */,
+				C9D6EA421E6E9E8500019D46 /* transferVIew.m */,
+				C9D6EA441E7002FB00019D46 /* animationView.h */,
+				C9D6EA451E7002FB00019D46 /* animationView.m */,
+				C947C56D1E80CDB9001E0B5C /* UIBezierView.h */,
+				C947C56E1E80CDB9001E0B5C /* UIBezierView.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		C9F127A51DC9970C005F55BD = {
 			isa = PBXGroup;
 			children = (
@@ -312,11 +346,14 @@
 				C97FCBDA1DED356100B5A71E /* runtime */,
 				C97FCBD61DED2E8500B5A71E /* protocol */,
 				C9BE155C1DE4442200256908 /* category */,
+				C9D6EA401E6E9E5700019D46 /* Animation */,
 				C9BE155B1DE443C900256908 /* CoreGraphics */,
 				C9BE155A1DE4439A00256908 /* CoreData */,
 				C9BE15591DE4438A00256908 /* ARC */,
 				C9BE15551DE4438200256908 /* GCD */,
 				C9BE156B1DE4456100256908 /* RunLoop */,
+				C9154B991E0A5306007CFD04 /* testOperation.h */,
+				C9154B9A1E0A5306007CFD04 /* testOperation.m */,
 				C9F127B41DC9970C005F55BD /* AppDelegate.h */,
 				C9F127B51DC9970C005F55BD /* AppDelegate.m */,
 				C9F127B71DC9970C005F55BD /* ViewController.h */,
@@ -364,12 +401,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F127DE1DC9970C005F55BD /* Build configuration list for PBXNativeTarget "test-001" */;
 			buildPhases = (
-				88F246C510455C4AD1106725 /* 📦 Check Pods Manifest.lock */,
+				88F246C510455C4AD1106725 /* [CP] Check Pods Manifest.lock */,
 				C9F127AA1DC9970C005F55BD /* Sources */,
 				C9F127AB1DC9970C005F55BD /* Frameworks */,
 				C9F127AC1DC9970C005F55BD /* Resources */,
-				6B33986AF573D6C97B26AFBE /* 📦 Embed Pods Frameworks */,
-				308330702618BA4CEBB3518C /* 📦 Copy Pods Resources */,
+				6B33986AF573D6C97B26AFBE /* [CP] Embed Pods Frameworks */,
+				308330702618BA4CEBB3518C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -491,14 +528,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		308330702618BA4CEBB3518C /* 📦 Copy Pods Resources */ = {
+		308330702618BA4CEBB3518C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,14 +543,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-001/Pods-test-001-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B33986AF573D6C97B26AFBE /* 📦 Embed Pods Frameworks */ = {
+		6B33986AF573D6C97B26AFBE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,19 +558,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-001/Pods-test-001-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88F246C510455C4AD1106725 /* 📦 Check Pods Manifest.lock */ = {
+		88F246C510455C4AD1106725 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -544,6 +581,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BE15771DE4497D00256908 /* testDataSerialize.m in Sources */,
+				C947C56F1E80CDB9001E0B5C /* UIBezierView.m in Sources */,
+				C9D6EA431E6E9E8500019D46 /* transferVIew.m in Sources */,
 				C9BE156E1DE4456100256908 /* testRunLoop.m in Sources */,
 				C97FCBF01DEFF32800B5A71E /* testUIView.m in Sources */,
 				C9BE15611DE4442200256908 /* NSString+reverse.m in Sources */,
@@ -552,6 +591,7 @@
 				C9F127B91DC9970C005F55BD /* ViewController.m in Sources */,
 				C9BE15671DE4443D00256908 /* layerTestView.m in Sources */,
 				C97FCBE71DEFBF6100B5A71E /* testBasic.m in Sources */,
+				C9154B9B1E0A5306007CFD04 /* testOperation.m in Sources */,
 				C9BE15711DE4459800256908 /* testRunLoopView.m in Sources */,
 				C9BE16441DE584F800256908 /* test_001.xcdatamodeld in Sources */,
 				C9BE15581DE4438200256908 /* testGCD.m in Sources */,
@@ -559,10 +599,12 @@
 				C9BE157A1DE4531B00256908 /* cdPeople.m in Sources */,
 				C97FCBDD1DED357900B5A71E /* testRuntime.m in Sources */,
 				C9BE15741DE446FF00256908 /* testGCDView.m in Sources */,
+				C9D6EA3F1E6D2F5000019D46 /* testTouchEvent.m in Sources */,
 				C9F127B61DC9970C005F55BD /* AppDelegate.m in Sources */,
 				C9F127B31DC9970C005F55BD /* main.m in Sources */,
 				C97FCBEC1DEFF11F00B5A71E /* testTableViewCell.m in Sources */,
 				C97FCBE31DEE6C5800B5A71E /* testClassMechanics.m in Sources */,
+				C9D6EA461E7002FB00019D46 /* animationView.m in Sources */,
 				C97FCBE01DED35EA00B5A71E /* testCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,6 +701,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -700,6 +743,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

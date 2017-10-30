@@ -12,6 +12,10 @@
 
 - (NSString *)reverse
 {
+    if (self.length == 0) {
+        return self;
+    }
+    
     NSMutableString *reverseStr = [[NSMutableString alloc] init];
     if (reverseStr)
     {

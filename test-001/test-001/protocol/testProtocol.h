@@ -18,9 +18,15 @@ typedef NS_ENUM(NSInteger, aa) {
 
 @required @property (nonatomic, assign) NSInteger prop;
 
+@optional
+- (void)testProtol;
+- (NSString *)getDescription;
+
 @end
 
 
 @interface testProtocol : NSObject <myProtocol>
+
+@property (nonatomic, weak) id <myProtocol> delegate; //delegate must use weak
 
 @end

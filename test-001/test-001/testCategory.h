@@ -10,7 +10,7 @@
 
 @interface testCategory : NSObject
 
-//添加属性测试
-@property (nonatomic, strong) NSString *catStr;
+- (void)test;
+
 
 @end

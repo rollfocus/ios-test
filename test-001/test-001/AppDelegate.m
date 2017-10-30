@@ -7,6 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "testBasic.h"
+
+@interface testApplication : UIApplication
+
+@end
+
+@implementation testApplication
+
+- (void)sendEvent:(UIEvent *)event {
+    if (event.type == UIEventTypeTouches) {
+        if ([[event.allTouches anyObject] phase] == UITouchPhaseBegan) {
+            NSLog(@">>>> touch event");
+        }
+    }
+    [super sendEvent:event];
+    
+}
+
+@end
 
 @interface AppDelegate ()
 
@@ -17,6 +36,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //测试主线程 autore pool
+    __weak NSString *oStr;
+    @autoreleasepool {
+        NSString *str = [NSString stringWithFormat:@"auto relese test"];
+        oStr = str;
+    }
+    // autorelease pool 结束后释放了
+    NSLog(@"%@", oStr);
+    
+    //创建一个对象会啥时候释放？每个事件循环会创建一个autorelease pool，在事件执行结束后pool销毁，并释放对象
+    testBasic *tb = [testBasic new];
+    [tb test];
+    
+    //测试后台运行
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        while (1) {
+            NSLog(@">>>> i am still running");
+            sleep(10);
+        }
+    });
     
     return YES;
 }
@@ -48,6 +88,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+
+#pragma mark - Remote Event Handling
+
+- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
+    
 }
 
 
@@ -96,5 +143,7 @@
         abort();
     }
 }
+
+
 
 @end

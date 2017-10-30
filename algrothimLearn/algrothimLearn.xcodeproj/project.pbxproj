@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97FCC561DFA82CE00B5A71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC551DFA82CE00B5A71E /* main.m */; };
+		C97FCC591DFA82CE00B5A71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC581DFA82CE00B5A71E /* AppDelegate.m */; };
+		C97FCC5C1DFA82CE00B5A71E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC5B1DFA82CE00B5A71E /* ViewController.m */; };
+		C97FCC5F1DFA82CE00B5A71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FCC5D1DFA82CE00B5A71E /* Main.storyboard */; };
+		C97FCC621DFA82CE00B5A71E /* algrothimLearn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC601DFA82CE00B5A71E /* algrothimLearn.xcdatamodeld */; };
+		C97FCC641DFA82CE00B5A71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97FCC631DFA82CE00B5A71E /* Assets.xcassets */; };
+		C97FCC671DFA82CE00B5A71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FCC651DFA82CE00B5A71E /* LaunchScreen.storyboard */; };
+		C97FCC721DFA82CF00B5A71E /* algrothimLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC711DFA82CF00B5A71E /* algrothimLearnTests.m */; };
+		C97FCC7D1DFA82CF00B5A71E /* algrothimLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC7C1DFA82CF00B5A71E /* algrothimLearnUITests.m */; };
+		C97FCC8F1DFA895500B5A71E /* CodeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC8E1DFA895500B5A71E /* CodeContent.m */; };
+		C97FCC961DFA9A7500B5A71E /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC951DFA9A7500B5A71E /* UIView+Ext.m */; };
+		C97FCC991DFAAB4100B5A71E /* AGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC981DFAAB4100B5A71E /* AGNavigationController.m */; };
+		C97FCC9C1DFAACB600B5A71E /* AGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FCC9B1DFAACB600B5A71E /* AGMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97FCC6E1DFA82CE00B5A71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97FCC491DFA82CE00B5A71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97FCC501DFA82CE00B5A71E;
+			remoteInfo = algrothimLearn;
+		};
+		C97FCC791DFA82CF00B5A71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97FCC491DFA82CE00B5A71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97FCC501DFA82CE00B5A71E;
+			remoteInfo = algrothimLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C97FCC511DFA82CE00B5A71E /* algrothimLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algrothimLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97FCC551DFA82CE00B5A71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C97FCC571DFA82CE00B5A71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C97FCC581DFA82CE00B5A71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C97FCC5A1DFA82CE00B5A71E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C97FCC5B1DFA82CE00B5A71E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C97FCC5E1DFA82CE00B5A71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C97FCC611DFA82CE00B5A71E /* algrothimLearn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = algrothimLearn.xcdatamodel; sourceTree = "<group>"; };
+		C97FCC631DFA82CE00B5A71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C97FCC661DFA82CE00B5A71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C97FCC681DFA82CE00B5A71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97FCC6D1DFA82CE00B5A71E /* algrothimLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algrothimLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97FCC711DFA82CF00B5A71E /* algrothimLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = algrothimLearnTests.m; sourceTree = "<group>"; };
+		C97FCC731DFA82CF00B5A71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97FCC781DFA82CF00B5A71E /* algrothimLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algrothimLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97FCC7C1DFA82CF00B5A71E /* algrothimLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = algrothimLearnUITests.m; sourceTree = "<group>"; };
+		C97FCC7E1DFA82CF00B5A71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97FCC8A1DFA848800B5A71E /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		C97FCC8C1DFA87D300B5A71E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		C97FCC8D1DFA895500B5A71E /* CodeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeContent.h; sourceTree = "<group>"; };
+		C97FCC8E1DFA895500B5A71E /* CodeContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeContent.m; sourceTree = "<group>"; };
+		C97FCC941DFA9A7500B5A71E /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		C97FCC951DFA9A7500B5A71E /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		C97FCC971DFAAB4100B5A71E /* AGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGNavigationController.h; sourceTree = "<group>"; };
+		C97FCC981DFAAB4100B5A71E /* AGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGNavigationController.m; sourceTree = "<group>"; };
+		C97FCC9A1DFAACB600B5A71E /* AGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMainViewController.h; sourceTree = "<group>"; };
+		C97FCC9B1DFAACB600B5A71E /* AGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97FCC4E1DFA82CE00B5A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FCC6A1DFA82CE00B5A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FCC751DFA82CF00B5A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97FCC481DFA82CE00B5A71E = {
+			isa = PBXGroup;
+			children = (
+				C97FCC531DFA82CE00B5A71E /* algrothimLearn */,
+				C97FCC701DFA82CF00B5A71E /* algrothimLearnTests */,
+				C97FCC7B1DFA82CF00B5A71E /* algrothimLearnUITests */,
+				C97FCC521DFA82CE00B5A71E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97FCC521DFA82CE00B5A71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCC511DFA82CE00B5A71E /* algrothimLearn.app */,
+				C97FCC6D1DFA82CE00B5A71E /* algrothimLearnTests.xctest */,
+				C97FCC781DFA82CF00B5A71E /* algrothimLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97FCC531DFA82CE00B5A71E /* algrothimLearn */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCC901DFA952A00B5A71E /* category */,
+				C97FCC8A1DFA848800B5A71E /* common.h */,
+				C97FCC8C1DFA87D300B5A71E /* PrefixHeader.pch */,
+				C97FCC571DFA82CE00B5A71E /* AppDelegate.h */,
+				C97FCC581DFA82CE00B5A71E /* AppDelegate.m */,
+				C97FCC971DFAAB4100B5A71E /* AGNavigationController.h */,
+				C97FCC981DFAAB4100B5A71E /* AGNavigationController.m */,
+				C97FCC9A1DFAACB600B5A71E /* AGMainViewController.h */,
+				C97FCC9B1DFAACB600B5A71E /* AGMainViewController.m */,
+				C97FCC5A1DFA82CE00B5A71E /* ViewController.h */,
+				C97FCC5B1DFA82CE00B5A71E /* ViewController.m */,
+				C97FCC8D1DFA895500B5A71E /* CodeContent.h */,
+				C97FCC8E1DFA895500B5A71E /* CodeContent.m */,
+				C97FCC5D1DFA82CE00B5A71E /* Main.storyboard */,
+				C97FCC631DFA82CE00B5A71E /* Assets.xcassets */,
+				C97FCC651DFA82CE00B5A71E /* LaunchScreen.storyboard */,
+				C97FCC681DFA82CE00B5A71E /* Info.plist */,
+				C97FCC601DFA82CE00B5A71E /* algrothimLearn.xcdatamodeld */,
+				C97FCC541DFA82CE00B5A71E /* Supporting Files */,
+			);
+			path = algrothimLearn;
+			sourceTree = "<group>";
+		};
+		C97FCC541DFA82CE00B5A71E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCC551DFA82CE00B5A71E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97FCC701DFA82CF00B5A71E /* algrothimLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCC711DFA82CF00B5A71E /* algrothimLearnTests.m */,
+				C97FCC731DFA82CF00B5A71E /* Info.plist */,
+			);
+			path = algrothimLearnTests;
+			sourceTree = "<group>";
+		};
+		C97FCC7B1DFA82CF00B5A71E /* algrothimLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCC7C1DFA82CF00B5A71E /* algrothimLearnUITests.m */,
+				C97FCC7E1DFA82CF00B5A71E /* Info.plist */,
+			);
+			path = algrothimLearnUITests;
+			sourceTree = "<group>";
+		};
+		C97FCC901DFA952A00B5A71E /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C97FCC941DFA9A7500B5A71E /* UIView+Ext.h */,
+				C97FCC951DFA9A7500B5A71E /* UIView+Ext.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97FCC501DFA82CE00B5A71E /* algrothimLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97FCC811DFA82CF00B5A71E /* Build configuration list for PBXNativeTarget "algrothimLearn" */;
+			buildPhases = (
+				C97FCC4D1DFA82CE00B5A71E /* Sources */,
+				C97FCC4E1DFA82CE00B5A71E /* Frameworks */,
+				C97FCC4F1DFA82CE00B5A71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = algrothimLearn;
+			productName = algrothimLearn;
+			productReference = C97FCC511DFA82CE00B5A71E /* algrothimLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97FCC6C1DFA82CE00B5A71E /* algrothimLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97FCC841DFA82CF00B5A71E /* Build configuration list for PBXNativeTarget "algrothimLearnTests" */;
+			buildPhases = (
+				C97FCC691DFA82CE00B5A71E /* Sources */,
+				C97FCC6A1DFA82CE00B5A71E /* Frameworks */,
+				C97FCC6B1DFA82CE00B5A71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97FCC6F1DFA82CE00B5A71E /* PBXTargetDependency */,
+			);
+			name = algrothimLearnTests;
+			productName = algrothimLearnTests;
+			productReference = C97FCC6D1DFA82CE00B5A71E /* algrothimLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C97FCC771DFA82CF00B5A71E /* algrothimLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97FCC871DFA82CF00B5A71E /* Build configuration list for PBXNativeTarget "algrothimLearnUITests" */;
+			buildPhases = (
+				C97FCC741DFA82CF00B5A71E /* Sources */,
+				C97FCC751DFA82CF00B5A71E /* Frameworks */,
+				C97FCC761DFA82CF00B5A71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97FCC7A1DFA82CF00B5A71E /* PBXTargetDependency */,
+			);
+			name = algrothimLearnUITests;
+			productName = algrothimLearnUITests;
+			productReference = C97FCC781DFA82CF00B5A71E /* algrothimLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97FCC491DFA82CE00B5A71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cDuozi;
+				TargetAttributes = {
+					C97FCC501DFA82CE00B5A71E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M5NGEQAU7Z;
+						ProvisioningStyle = Automatic;
+					};
+					C97FCC6C1DFA82CE00B5A71E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M5NGEQAU7Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C97FCC501DFA82CE00B5A71E;
+					};
+					C97FCC771DFA82CF00B5A71E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M5NGEQAU7Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C97FCC501DFA82CE00B5A71E;
+					};
+				};
+			};
+			buildConfigurationList = C97FCC4C1DFA82CE00B5A71E /* Build configuration list for PBXProject "algrothimLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97FCC481DFA82CE00B5A71E;
+			productRefGroup = C97FCC521DFA82CE00B5A71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97FCC501DFA82CE00B5A71E /* algrothimLearn */,
+				C97FCC6C1DFA82CE00B5A71E /* algrothimLearnTests */,
+				C97FCC771DFA82CF00B5A71E /* algrothimLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97FCC4F1DFA82CE00B5A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97FCC671DFA82CE00B5A71E /* LaunchScreen.storyboard in Resources */,
+				C97FCC641DFA82CE00B5A71E /* Assets.xcassets in Resources */,
+				C97FCC5F1DFA82CE00B5A71E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FCC6B1DFA82CE00B5A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FCC761DFA82CF00B5A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97FCC4D1DFA82CE00B5A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97FCC621DFA82CE00B5A71E /* algrothimLearn.xcdatamodeld in Sources */,
+				C97FCC5C1DFA82CE00B5A71E /* ViewController.m in Sources */,
+				C97FCC961DFA9A7500B5A71E /* UIView+Ext.m in Sources */,
+				C97FCC991DFAAB4100B5A71E /* AGNavigationController.m in Sources */,
+				C97FCC591DFA82CE00B5A71E /* AppDelegate.m in Sources */,
+				C97FCC9C1DFAACB600B5A71E /* AGMainViewController.m in Sources */,
+				C97FCC8F1DFA895500B5A71E /* CodeContent.m in Sources */,
+				C97FCC561DFA82CE00B5A71E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FCC691DFA82CE00B5A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97FCC721DFA82CF00B5A71E /* algrothimLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FCC741DFA82CF00B5A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97FCC7D1DFA82CF00B5A71E /* algrothimLearnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97FCC6F1DFA82CE00B5A71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97FCC501DFA82CE00B5A71E /* algrothimLearn */;
+			targetProxy = C97FCC6E1DFA82CE00B5A71E /* PBXContainerItemProxy */;
+		};
+		C97FCC7A1DFA82CF00B5A71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97FCC501DFA82CE00B5A71E /* algrothimLearn */;
+			targetProxy = C97FCC791DFA82CF00B5A71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C97FCC5D1DFA82CE00B5A71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97FCC5E1DFA82CE00B5A71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C97FCC651DFA82CE00B5A71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97FCC661DFA82CE00B5A71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97FCC7F1DFA82CF00B5A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C97FCC801DFA82CF00B5A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97FCC821DFA82CF00B5A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = algrothimLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..algrothimLearn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C97FCC831DFA82CF00B5A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = algrothimLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..algrothimLearn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C97FCC851DFA82CF00B5A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				INFOPLIST_FILE = algrothimLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..algrothimLearnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/algrothimLearn.app/algrothimLearn";
+			};
+			name = Debug;
+		};
+		C97FCC861DFA82CF00B5A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				INFOPLIST_FILE = algrothimLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..algrothimLearnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/algrothimLearn.app/algrothimLearn";
+			};
+			name = Release;
+		};
+		C97FCC881DFA82CF00B5A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				INFOPLIST_FILE = algrothimLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..algrothimLearnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = algrothimLearn;
+			};
+			name = Debug;
+		};
+		C97FCC891DFA82CF00B5A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5NGEQAU7Z;
+				INFOPLIST_FILE = algrothimLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1-No..algrothimLearnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = algrothimLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97FCC4C1DFA82CE00B5A71E /* Build configuration list for PBXProject "algrothimLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97FCC7F1DFA82CF00B5A71E /* Debug */,
+				C97FCC801DFA82CF00B5A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97FCC811DFA82CF00B5A71E /* Build configuration list for PBXNativeTarget "algrothimLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97FCC821DFA82CF00B5A71E /* Debug */,
+				C97FCC831DFA82CF00B5A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C97FCC841DFA82CF00B5A71E /* Build configuration list for PBXNativeTarget "algrothimLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97FCC851DFA82CF00B5A71E /* Debug */,
+				C97FCC861DFA82CF00B5A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C97FCC871DFA82CF00B5A71E /* Build configuration list for PBXNativeTarget "algrothimLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97FCC881DFA82CF00B5A71E /* Debug */,
+				C97FCC891DFA82CF00B5A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C97FCC601DFA82CE00B5A71E /* algrothimLearn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C97FCC611DFA82CE00B5A71E /* algrothimLearn.xcdatamodel */,
+			);
+			currentVersion = C97FCC611DFA82CE00B5A71E /* algrothimLearn.xcdatamodel */;
+			path = algrothimLearn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C97FCC491DFA82CE00B5A71E /* Project object */;
+}

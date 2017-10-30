@@ -10,6 +10,11 @@
 
 @interface UIView (ca)
 
+//添加属性测试, 不会生成变量，只会生成属性方法；
+@property (nonatomic, strong) NSString *catStr;
+
 - (void)init:(NSInteger)index name:(NSString *)name;
+
+
 
 @end
